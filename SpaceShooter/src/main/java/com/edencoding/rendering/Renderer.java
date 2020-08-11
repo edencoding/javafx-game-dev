@@ -1,19 +1,25 @@
 package com.edencoding.rendering;
 
 import com.edencoding.models.Entity;
+import javafx.geometry.Point2D;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
+import javafx.scene.paint.Color;
+import javafx.scene.transform.Rotate;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Renderer {
 
+    Canvas canvas;
     GraphicsContext context;
 
-    List<Entity> entities;
+    List<Entity> entities = new ArrayList<>();
 
-    public Renderer(GraphicsContext context) {
-        this.context = context;
+    public Renderer(Canvas canvas) {
+        this.canvas = canvas;
+        this.context = canvas.getGraphicsContext2D();
     }
 
     public void addEntity(Entity entity) {
@@ -29,17 +35,34 @@ public class Renderer {
     }
 
     public void render() {
+        context.save();
+
         for (Entity entity : entities) {
-            Image image = entity.getImage();
+
+            transformContext(entity);
+
+            Point2D pos = entity.getDrawPosition();
             context.drawImage(
                     entity.getImage(),
-                    entity.getPosition().getX(),
-                    entity.getPosition().getY(),
+                    pos.getX(),
+                    pos.getY(),
                     entity.getWidth(),
                     entity.getHeight()
             );
         }
+
+        context.restore();
     }
 
+    public void prepare(){
+        context.setFill( new Color(0.68, 0.68, 0.68, 1.0) );
+        context.fillRect(0,0, canvas.getWidth(),canvas.getHeight());
+    }
+
+    private void transformContext(Entity entity){
+        Point2D centre = entity.getCenter();
+        Rotate r = new Rotate(entity.getRotation(), centre.getX(), centre.getY());
+        context.setTransform(r.getMxx(), r.getMyx(), r.getMxy(), r.getMyy(), r.getTx(), r.getTy());
+    }
 
 }

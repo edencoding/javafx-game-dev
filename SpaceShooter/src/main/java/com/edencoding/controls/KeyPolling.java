@@ -44,7 +44,6 @@ public class KeyPolling {
         KeyPolling.scene = scene;
         KeyPolling.scene.setOnKeyPressed((keyEvent -> {
             keysCurrentlyDown.add(keyEvent.getCode());
-            System.out.println("Adding - " + keyEvent.getCode().toString());
         }));
         KeyPolling.scene.setOnKeyReleased((keyEvent -> {
             keysCurrentlyDown.remove(keyEvent.getCode());
