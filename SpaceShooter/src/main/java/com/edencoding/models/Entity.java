@@ -142,4 +142,8 @@ public class Entity {
         move(currentThrustVector);
         rotate(currentTorqueForce);
     }
+
+    public void setScale(float scale) {
+        this.scale = scale;
+    }
 }

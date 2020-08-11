@@ -8,6 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.image.Image;
 import javafx.scene.input.KeyCode;
+import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -19,8 +20,8 @@ import java.util.ResourceBundle;
  **/
 public class GameController implements Initializable {
 
-
     public Canvas gameCanvas;
+    public AnchorPane gameAnchor;
     KeyPolling keys = KeyPolling.getInstance();
 
     private Entity player = new Entity(new Image(getClass().getResourceAsStream("/img/ship.png")));
@@ -28,18 +29,21 @@ public class GameController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        player.setDrawPosition(200, 200);
+        initialiseCanvas();
+
+        player.setDrawPosition(350, 200);
+        player.setScale(0.5f);
 
         Renderer renderer = new Renderer(this.gameCanvas);
         renderer.addEntity(player);
-        renderer.render();
+        renderer.setBackground(new Image(getClass().getResourceAsStream("/img/SpaceBackground.jpg")));
 
         GameLoopTimer timer = new GameLoopTimer() {
             @Override
             public void tick(float secondsSinceLastFrame) {
                 renderer.prepare();
 
-                updatePlayerMovement();
+                updatePlayerMovement(secondsSinceLastFrame);
 
                 renderer.render();
             }
@@ -47,21 +51,23 @@ public class GameController implements Initializable {
         timer.start();
     }
 
-    private void updatePlayerMovement() {
+    private void initialiseCanvas() {
+        gameCanvas.widthProperty().bind(gameAnchor.widthProperty());
+        gameCanvas.heightProperty().bind(gameAnchor.heightProperty());
+    }
+
+    private void updatePlayerMovement(float frameDuration) {
         if (keys.isDown(KeyCode.UP)) {
-            player.addThrust(0.3);
+            player.addThrust(20 * frameDuration);
         } else if (keys.isDown(KeyCode.DOWN)) {
-            player.addThrust(-0.3);
+            player.addThrust(-20 * frameDuration);
         }
 
         if (keys.isDown(KeyCode.RIGHT)) {
-            player.addTorque(2f);
+            player.addTorque(120f * frameDuration);
         } else if (keys.isDown(KeyCode.LEFT)) {
-            player.addTorque(-2f);
+            player.addTorque(-120f * frameDuration);
         }
-
         player.update();
     }
-
-
 }

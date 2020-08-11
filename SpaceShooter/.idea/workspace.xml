@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/SpaceBackground.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/edencoding/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edencoding/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/edencoding/controls/KeyPolling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edencoding/controls/KeyPolling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/edencoding/models/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edencoding/models/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/edencoding/rendering/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/edencoding/rendering/Renderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/MainView.fxml" afterDir="false" />
@@ -118,14 +118,14 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\code\javafx-game-dev\SpaceShooter\src\main\resources\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\code\javafx-game-dev\SpaceShooter\src\main\resources\img" />
       <recent name="C:\code\javafx-game-dev\SpaceShooter\src\main\resources" />
       <recent name="C:\code\javafx-game-dev\SpaceShooter\src\main\java" />
       <recent name="C:\code\javafx-game-dev\SpaceShooter\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\javafx-game-dev\SpaceShooter\src\main\resources\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -254,26 +254,26 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="365" y="69" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.760@0.0.1280.760" timestamp="1597138532026" />
-    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1597156650005">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1597174495025">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597142591879" />
-    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597156650005" />
-    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1597156650005">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597174495025" />
+    <state width="1877" height="157" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597157401814" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1597174495025">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1597142591879" />
-    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597156650005" />
-    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1597156650005">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1597174495025" />
+    <state width="1877" height="157" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597157401814" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1597174495025">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1597142591878" />
-    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597156650005" />
-    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1597156650005">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1597174495025" />
+    <state width="1877" height="157" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597157401814" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1597174495025">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1237" height="189" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1597142591879" />
-    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597156650005" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1597174495025" />
+    <state width="1877" height="157" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597157401814" />
     <state width="1237" height="236" key="GridCell.Tab.1.bottom" timestamp="1597142491239">
       <screen x="0" y="0" width="1280" height="760" />
     </state>

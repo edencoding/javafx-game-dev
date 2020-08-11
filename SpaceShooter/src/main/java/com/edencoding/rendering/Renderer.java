@@ -4,6 +4,7 @@ import com.edencoding.models.Entity;
 import javafx.geometry.Point2D;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
+import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 import javafx.scene.transform.Rotate;
 
@@ -14,6 +15,8 @@ public class Renderer {
 
     Canvas canvas;
     GraphicsContext context;
+
+    Image background;
 
     List<Entity> entities = new ArrayList<>();
 
@@ -34,8 +37,16 @@ public class Renderer {
         entities.clear();
     }
 
+    public void setBackground(Image background) {
+        this.background = background;
+    }
+
     public void render() {
         context.save();
+
+        if(background!=null){
+            context.drawImage(background, 0, 0);
+        }
 
         for (Entity entity : entities) {
 
@@ -64,5 +75,4 @@ public class Renderer {
         Rotate r = new Rotate(entity.getRotation(), centre.getX(), centre.getY());
         context.setTransform(r.getMxx(), r.getMyx(), r.getMxy(), r.getMyy(), r.getTx(), r.getTy());
     }
-
 }
