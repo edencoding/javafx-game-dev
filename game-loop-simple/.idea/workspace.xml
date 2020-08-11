@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac4661d9-76dc-4de2-8367-35fbacfa8339" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/controllers/MainViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/models/MetricsContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/models/ToastContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/MainView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Non-Modular/Maven/hellofx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1einXpglSWbw4UIuPg8h8yryVYQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleSpaceShooter" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\javafx-animation\simple-usi\src\main\resources" />
+      <recent name="C:\code\samples\IDE\IntelliJ\Modular\Maven\hellofx\src\main\resources\org\openjfx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\javafx-animation\simple-usi\src\main\resources\com\edencoding" />
+      <recent name="C:\code\samples\IDE\IntelliJ\Modular\Maven\hellofx\src\main\resources" />
+      <recent name="C:\code\samples\IDE\IntelliJ\Modular\Maven\hellofx\src\main\java\org\openjfx" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edencoding.App" />
+      <module name="SimpleSpaceShooter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.openjfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.edencoding.App" />
+      <module name="edencoding-fx-animations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.openjfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac4661d9-76dc-4de2-8367-35fbacfa8339" name="Default Changelist" comment="" />
+      <created>1594813322113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594813322113</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="0" width="617" height="760" key="#App" timestamp="1597090235096">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="339" y="0" width="617" height="760" key="#App/0.0.1280.760@0.0.1280.760" timestamp="1597090235096" />
+    <state x="77" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597130750980">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="77" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1597130750980" />
+    <state x="446" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1595873326272">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="446" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1595873326272" />
+    <state x="352" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595742030058">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="352" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1595742030058" />
+    <state x="350" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597130899795">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="350" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594814672762" />
+    <state x="350" y="177" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.760@0.0.1280.760" timestamp="1597130899795" />
+    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594814632884">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594814632884" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1597137492682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597137492682" />
+    <state width="1237" height="284" key="GridCell.Tab.0.bottom" timestamp="1597130739845">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="272" key="GridCell.Tab.0.bottom/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
+    <state width="1237" height="284" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1597130739845" />
+    <state width="1237" height="284" key="GridCell.Tab.0.center" timestamp="1597130739845">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="272" key="GridCell.Tab.0.center/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
+    <state width="1237" height="284" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1597130739845" />
+    <state width="1237" height="284" key="GridCell.Tab.0.left" timestamp="1597130739845">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="272" key="GridCell.Tab.0.left/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
+    <state width="1237" height="284" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1597130739845" />
+    <state width="1237" height="284" key="GridCell.Tab.0.right" timestamp="1597130739845">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="272" key="GridCell.Tab.0.right/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594815328260" />
+    <state width="1237" height="284" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1597130739845" />
+    <state width="1237" height="385" key="GridCell.Tab.1.bottom" timestamp="1595745258407">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="385" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
+    <state width="1237" height="385" key="GridCell.Tab.1.center" timestamp="1595745258407">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="385" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
+    <state width="1237" height="385" key="GridCell.Tab.1.left" timestamp="1595745258407">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="385" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
+    <state width="1237" height="385" key="GridCell.Tab.1.right" timestamp="1595745258407">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1237" height="385" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1595745258407" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1597130886106">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.760/1920.0.1680.1010@0.0.1280.760" timestamp="1594814670315" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1597130886106" />
+    <state x="91" y="41" key="new project wizard" timestamp="1596826496967">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="91" y="41" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1596826496967" />
+  </component>
+</project>
